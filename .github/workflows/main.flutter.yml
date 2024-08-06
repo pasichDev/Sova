@@ -12,6 +12,7 @@ env:
   APP_FOLDER_NAME: NosoSova
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: [ main ]
     paths-ignore:
