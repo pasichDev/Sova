@@ -14,7 +14,7 @@ def get_release_notes(version):
         changelog = file.read()
     version_header = f"## v.{version}"
     start = changelog.find(version_header)
-    if (start == -1):
+    if start == -1:
         return "No release notes found."
     start += len(version_header)
     end = changelog.find("## v.", start)
@@ -23,10 +23,13 @@ def get_release_notes(version):
 version = get_version()
 release_notes = get_release_notes(version)
 
+# Removing undesired characters from the release notes
+cleaned_release_notes = release_notes.replace('-', '')
+
 # Writing the outputs to a JSON file
 output = {
     'VERSION': version,
-    'RELEASE_NOTES': release_notes
+    'RELEASE_NOTES': cleaned_release_notes
 }
 
 with open('changelog.txt', 'w') as file:
