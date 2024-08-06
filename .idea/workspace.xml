@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f191628-81c2-43f5-969b-111b2f5fa4b3" name="Changes" comment="gt">
-      <change beforePath="$PROJECT_DIR$/s" beforeDir="false" />
+    <list default="true" id="6f191628-81c2-43f5-969b-111b2f5fa4b3" name="Changes" comment="verion">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,12 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
@@ -82,11 +88,29 @@
       <option name="project" value="LOCAL" />
       <updated>1722966694281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pedro lol">
+      <option name="closed" value="true" />
+      <created>1722966879011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722966879011</updated>
+    </task>
+    <task id="LOCAL-00003" summary="verion">
+      <option name="closed" value="true" />
+      <created>1722966905247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722966905247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gt" />
-    <option name="LAST_COMMIT_MESSAGE" value="gt" />
+    <MESSAGE value="pedro lol" />
+    <MESSAGE value="verion" />
+    <option name="LAST_COMMIT_MESSAGE" value="verion" />
   </component>
 </project>
