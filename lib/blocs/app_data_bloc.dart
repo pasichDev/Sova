@@ -246,12 +246,16 @@ class AppDataBloc extends Bloc<AppDataEvent, AppDataState> {
     var blockInfo =
         NodesInfo(blockId: 0, reward: 0.15, count: 0, masternodes: []);
     var isListNodesFail = false;
-    var nodesInfo = await _repositories.nosoApiService.fetchNodesInfo();
+
+   /* fix to new version (restert rest api)
+   var nodesInfo = await _repositories.nosoApiService.fetchNodesInfo();
 
     if (nodesInfo.error == null && nodesInfo.value != null) {
       blockInfo = nodesInfo.value!;
     }
+   */
 
+   
     if (blockInfo.masternodes.isNotEmpty && nodesInfo.error == null) {
       _debugBloc.add(AddStringDebug(
           "The list of active nodes is updated, currently they are -> ${blockInfo.count}"));
