@@ -1,3 +1,7 @@
+## v.0.4.9
+
+- fix bermelo
+
 ## v.0.4.8
 
 - Added the ability to automatically receive fresh verified nodes and test them
