@@ -274,8 +274,8 @@ class AppDataBloc extends Bloc<AppDataEvent, AppDataState> {
 
     if (isListNodesFail) {
       _debugBloc.add(AddStringDebug("Block information not received, skipped"));
-      _debugBloc
-          .add(AddStringDebug("Error: ${nodesInfo.error}", DebugType.error));
+   //   _debugBloc
+    //      .add(AddStringDebug("Error: ${nodesInfo.error}", DebugType.error));
       return blockInfo;
     } else {
       String masternodesString = _masternodesToString(blockInfo.masternodes);
