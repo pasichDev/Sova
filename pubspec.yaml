@@ -2,7 +2,7 @@ name: nososova
 description: Multi-platform wallet for NosoCoin.
 publish_to: none
 homepage: 'https://github.com/nosocoin/SovaWallet'
-version: 0.4.9+11
+version: 0.4.10+12
 documentation: ''
 environment:
   sdk: '>=3.0.6 <4.0.0'
@@ -47,7 +47,7 @@ dependencies:
   shelf_router: ^1.1.4
   noso_dart: 1.2.4
   noso_rest_api:
-    git: https://github.com/Noso-Project/noso_rest_api.git
+    git: https://github.com/nosocoin/noso_rest_api.git
   settings_yaml: ^8.0.1
 dev_dependencies:
   drift_dev: ^2.15.0
