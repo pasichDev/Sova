@@ -1,7 +1,7 @@
 # NosoSova
-![GitHub Tag](https://img.shields.io/github/v/tag/Noso-Project/NosoSova)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Noso-Project/NosoSova/total)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Noso-Project/NosoSova)
+![GitHub Tag](https://img.shields.io/github/v/tag/nosocoin/SovaWallet)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/nosocoin/SovaWallet/total)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/nosocoin/SovaWallet)
 
 **NosoSova** is a cross-platform application with an appealing design that seamlessly combines aesthetics and multifunctionality. Providing users with a user-friendly interface, NosoSova allows you to enjoy various features.
 
