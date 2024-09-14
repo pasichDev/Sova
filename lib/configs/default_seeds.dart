@@ -8,7 +8,6 @@ import '../path_app.dart';
 
 class DefaultSeeds {
   final String keyVerSeeds = "verification_seeds";
-  //204.10.194.22 204.10.194.29 204.10.194.32 204.10.194.36 204.10.194.33 38.242.252.153 38.242.252.153 62.171.172.186 38.242.252.234
   static const List<String> seedsVerification = [
     "204.10.194.22",
     "204.10.194.29",
@@ -16,7 +15,9 @@ class DefaultSeeds {
     "204.10.194.26",
     "204.10.194.33",
     "38.242.252.153",
-    "62.171.172.186"
+    "157.173.99.119",
+    "38.242.252.234",
+    "4.233.61.8"
   ];
 
   /// Returns a random verified node if the resource is not specified, otherwise returns a node from the resource
