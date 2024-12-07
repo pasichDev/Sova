@@ -7,8 +7,9 @@ final class AppConfig {
   static const int durationTimeOut = 3;
   static const int delaySync = 30;
   static const String seedsDNS = "seed.nosocoin.com";
+  static const nameCoin = "Coin";
 
-  get getAppInfo => AppInfo(appVersion: "NOSOSOVA_$_appVersion");
+  get getAppInfo => AppInfo(appVersion: _appVersion);
 
   AppConfig() {
     _load();
